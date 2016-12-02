@@ -1,3 +1,10 @@
+let number1 = document.querySelector("input");
+let number2 = document.querySelectorAll("input")[1];
+let buttons = document.querySelectorAll("button");
+
+console.log(number1);
+console.log(number2);
+console.log(buttons);
 // Create a function that multiplies two numbers passed in as arguments. Return the product.
 function product(num1, num2) {
   return num1 * num2;
