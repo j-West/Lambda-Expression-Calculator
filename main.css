@@ -1,0 +1,12 @@
+.input-div, .btn-div {
+margin: 1em auto;
+text-align: center;
+}
+
+.btn-div button {
+  margin-right: 1em;
+}
+
+.result-header {
+  text-align: center;
+}
