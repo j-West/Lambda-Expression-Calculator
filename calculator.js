@@ -1,25 +1,25 @@
 let number1 = document.querySelector("input");
 let number2 = document.querySelectorAll("input")[1];
-var buttonDiv = document.querySelector(".btn-div");
+let buttonDiv = document.querySelector(".btn-div");
 
 // console.log(number1);
 // console.log(number2);
 // console.log(buttonDiv);
 
 // Create a function that adds two numbers passed in as arguments. Return the sum.
-var add = (num1, num2) => {
+let add = (num1, num2) => {
   return (num1 + num2);
 }
 // Create a function that subtracts two numbers passed in as arguments. Return the difference.
-var subtract = (num1, num2) => {
+let subtract = (num1, num2) => {
   return num1 - num2;
 }
 // Create a function that multiplies two numbers passed in as arguments. Return the product.
-var multiply = (num1, num2) => {
+let multiply = (num1, num2) => {
   return num1 * num2;
 }
 // Create a function that divides two numbers passed in as arguments. Return the quotient.
-var divide = (num1, num2) => {
+let divide = (num1, num2) => {
   return num1 / num2;
 }
 
