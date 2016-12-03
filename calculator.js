@@ -24,7 +24,7 @@ var divide = (num1, num2) => {
 }
 
 function operations(num1, num2, func) {
-  document.querySelector(".resultHeader").innerHTML = func(num1, num2);
+  document.querySelector("span").innerHTML = func(num1, num2);
   return func(num1, num2);
 }
 

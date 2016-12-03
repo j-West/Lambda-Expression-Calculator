@@ -3,17 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Lambda Expression Calculator</title>
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <input type="text" name="" placeholder="First number">
-    <input type="text" name="" placeholder="Second number">
-    <div class="btn-div">
-      <button type="button" class="buttons" value="add">Add</button>
-      <button type="button" class="buttons" value="subtract">Subtract</button>
-      <button type="button" class="buttons" value="multiply">Multiply</button>
-      <button type="button" class="buttons" value="divide">Divide</button>
+    <div class="wrapper">
+      <div class="input-div">
+        <input type="text" name="" placeholder="First number">
+        <input type="text" name="" placeholder="Second number">
+      </div>
+      <div class="btn-div">
+        <button type="button" class="buttons" value="add">Add</button>
+        <button type="button" class="buttons" value="subtract">Subtract</button>
+        <button type="button" class="buttons" value="multiply">Multiply</button>
+        <button type="button" class="buttons" value="divide">Divide</button>
+      </div>
+      <h2 class="result-header">Result: <span></span></h2>
     </div>
-    <h2 class="resultHeader"></h2>
     <script src="calculator.js" charset="utf-8"></script>
   </body>
 </html>
